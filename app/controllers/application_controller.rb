@@ -58,7 +58,7 @@ class ApplicationController < Sinatra::Base
   end
   # Projects
   get '/projects' do
-    projects = Project.all.order(created_at: :asc)
+    projects = Project.all.order(created_at: :desc)
     projects.to_json
   end
   post '/projects' do

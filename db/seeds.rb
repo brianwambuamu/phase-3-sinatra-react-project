@@ -21,9 +21,9 @@ project5 = Project.create(name: 'PMA', title: 'Portfolio management app', descri
         )
     end
     puts "Creating members"
-    member1 = ProjectMember.create(name: 'Faith kigen', email: 'faith.kigen@gmail.com',user_id: 1, project_id: 100)
-    member2 = ProjectMember.create(name: 'Joy Kirui', email: 'joy.kirui@gmail.com',user_id: 2, project_id: 200)
-    member3 = ProjectMember.create(name: 'Davis kimweli', email: 'davis.kimweli@gmail.com',user_id: 3, project_id: 300)
-    member4 = ProjectMember.create(name: 'Brian Bruce', email: 'brian.bruce@gmail.com',user_id: 4, project_id: 400)
-    member5 = ProjectMember.create(name: 'Bob obiero', email: 'bob.obiero@gmail.com',user_id: 5, project_id: 500)
+    member1 = ProjectMember.create(name: 'Faith kigen', email: 'faith.kigen@gmail.com',user_id: 1, project_id: 1)
+    member2 = ProjectMember.create(name: 'Joy Kirui', email: 'joy.kirui@gmail.com',user_id: 2, project_id: 2)
+    member3 = ProjectMember.create(name: 'Davis kimweli', email: 'davis.kimweli@gmail.com',user_id: 3, project_id: 3)
+    member4 = ProjectMember.create(name: 'Brian Bruce', email: 'brian.bruce@gmail.com',user_id: 4, project_id: 4)
+    member5 = ProjectMember.create(name: 'Bob obiero', email: 'bob.obiero@gmail.com',user_id: 5, project_id: 5)
     puts "Done seeding!"
