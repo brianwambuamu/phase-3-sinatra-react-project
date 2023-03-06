@@ -15,6 +15,8 @@ The focus of this project is **building a Sinatra API backend** that uses
 **Active Record** to access and persist data in a database, which will be used
 by a separate **React frontend** that interacts with the database via the API.
 
+## Front-end Project-Management-App
+ you can use this app in conjunction with my project management Api .[see the repo](https://github.com/brianwambuamu/pma)
 ## Requirements
 
 For this project, you must:
